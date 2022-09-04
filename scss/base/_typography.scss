@@ -1,0 +1,32 @@
+@use "../util/" as *;
+
+body {
+  line-height: 1.5;
+  font-family: var(--ff);
+}
+
+p {
+  font-size: var(--fs-paragraph);
+  color: var(--Soft-blue);
+  font-weight: 300;
+}
+
+.card {
+  &__title {
+    color: var(--White);
+    font-size: var(--fs-title);
+  }
+
+  &__ethereum {
+    color: var(--Cyan);
+    font-weight: 600;
+  }
+
+  &__name {
+    font-weight: 400;
+  }
+}
+
+.light {
+  color: var(--White);
+}
