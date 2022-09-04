@@ -6,7 +6,6 @@ body {
 }
 
 p {
-  font-size: var(--fs-paragraph);
   color: var(--Soft-blue);
   font-weight: 300;
 }
@@ -15,6 +14,10 @@ p {
   &__title {
     color: var(--White);
     font-size: var(--fs-title);
+  }
+
+  &__paragraph {
+    font-size: var(--fs-paragraph);
   }
 
   &__ethereum {
